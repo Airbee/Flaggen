@@ -6,6 +6,8 @@
  * Time: 12:06
  */
 
+namespace HTL3R\flaggen;
+
 abstract class Flagge
 {
     private $bezeichnung = "Eine wunderschöne Flagge.";

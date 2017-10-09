@@ -6,8 +6,7 @@
  * Time: 12:13
  */
 
-require_once "Flagge.php";
-require_once "IFlagge.php";
+namespace HTL3R\flaggen;
 
 class Rechteck extends Flagge
 {

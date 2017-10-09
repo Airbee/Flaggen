@@ -5,10 +5,8 @@
  * Date: 25.09.2017
  * Time: 12:27
  */
-require_once "Flagge.php";
-require_once "Kreis.php";
-require_once "Quadrat.php";
-require_once "Rechteck.php";
+
+namespace HTL3R\flaggen;
 
 $flaggen[] = new Rechteck("Eine Flagge", "Blau", 6.0, 4.0);
 $flaggen[] = new Quadrat("Eine andere Flagge", "Rot", 5.0);

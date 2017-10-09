@@ -1,13 +1,18 @@
 {
-    "name": "htl3r/flaggen",
-    "description": "Tolles Flaggen Package",
-    "type": "library",
-    "license": "GPL",
-    "authors": [
-        {
-            "name": "kindermann",
-            "email": "kindermann@htl.rennweg.at"
-        }
-    ],
-    "require": {}
+  "name": "htl3r/flaggen",
+  "description": "Tolles Flaggen Package",
+  "type": "library",
+  "license": "GPL",
+  "authors": [
+    {
+      "name": "kindermann",
+      "email": "kindermann@htl.rennweg.at"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "HTL3R\\flaggen": "src/"
+    }
+  },
+  "require": {}
 }
