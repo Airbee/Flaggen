@@ -13,12 +13,20 @@ abstract class Flagge
     private $bezeichnung = "Eine wunderschöne Flagge.";
     private $farbe = "Keine Farbe";
 
+    /**
+     * Flagge constructor.
+     * @param string $bezeichnung
+     * @param string $farbe
+     */
     public function __construct($bezeichnung, $farbe)
     {
         $this->bezeichnung = $bezeichnung;
         $this->farbe = $farbe;
     }
 
+    /**
+     * @return string Gibt den Flächeninhalt als String aus.
+     */
     public function __toString(): string
     {
         $flaeche = $this->getFlaeche();
